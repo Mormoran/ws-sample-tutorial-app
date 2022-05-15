@@ -7,8 +7,4 @@ environment.plugins.append('Provide', new webpack.ProvidePlugin({
   Popper: ['popper.js', 'default']
 }))
 
-environment.loaders.get('sass').use.splice(-1, 0, {
-  loader: 'resolve-url-loader'
-});
-
 module.exports = environment
