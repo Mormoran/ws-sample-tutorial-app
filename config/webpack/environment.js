@@ -1,5 +1,3 @@
-import 'bootstrap/css/bootstrap.min.css';
-
 const { environment } = require('@rails/webpacker')
 
 const webpack = require('webpack')
