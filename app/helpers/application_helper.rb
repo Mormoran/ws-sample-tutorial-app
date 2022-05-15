@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# All helper modules for the sample application go here
 module ApplicationHelper
   # Returns the full title on a per-page basis.
   def full_title(page_title = '')
